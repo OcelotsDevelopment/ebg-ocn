@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <div class="relative h-screen bg-cover bg-center overflow-y-hidden">
+    <video class="absolute -z-10 w-full" src="./public/land-video.mp4" autoplay muted loop></video>
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/50 bg-opacity-50"></div>
+
+    <!-- Navbar -->
+    <nav class="relative z-10 flex justify-between items-center px-4 md:px-28 py-6 bg-white md:bg-white/0">
+      <div class="flex items-center gap-6">
+        <img src="./public/logo/whiteLogo.png" alt="EBG Logo" class="hidden md:block h-7">
+        <img src="./public/logo/logo.png" alt="EBG Logo" class="md:hidden h-7">
+        <div class=" h-8  bg-[#FFFFFF80]/50 w-0.5 "></div>
+        <ul class="hidden md:flex space-x-8 text-lg">
+          <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+          <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
+          <li><a href="#" class="text-white hover:text-gray-300">Featured In</a></li>
+        </ul>
+      </div>
+
+      <a href="#"
+        class="hidden md:block text-white bg-white/15 hover:bg-white/25 px-5 py-2 rounded-full transition duration-300 ease-in-out hover:scale-110">Invest
+        Now</a>
+
+      <div class="md:hidden">
+        <svg width="26" height="14" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="26" height="3" fill="black" />
+          <rect width="14" height="3" transform="translate(0 11)" fill="black" />
+        </svg>
+      </div>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 flex flex-col justify-start pt-20 h-full px-6 md:px-28 max-w-6xl text-white">
+      <div class="flex items-center gap-2.5">
+        <hr class="border-t border-white my-8 w-12">
+        <h1 class="contr text-lg relative grid overflow-hidden">
+          <span class="swd col-start-1 row-start-1 "><span class="font-bold"> 25+ </span>Years in the industry</span>
+          <span class="swd col-start-1 row-start-1 "><span class="font-bold"> 10,060+</span>Employees at EBG</span>
+          <span class="swd col-start-1 row-start-1 "><span class="font-bold"> 456cr</span> Turnover last year</span>
+        </h1>
+      </div>
+      <h1 class="text-5xl md:text-7xl font-light leading-24 mb-6 playfair">INVEST IN SUSTAINABLE FUTURES WITH EBG</h1>
+      <p class="mb-8 text-lg max-w-2xl font-light">Powering global brands. Driving tangible impact. Join India’s
+        fastest-growing sustainability opportunity.</p>
+      <div class="flex flex-col items-start space-y-6">
+        <button
+          class="bap inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition group ">
+          Start Investing Now
+          <span
+            class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+            <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+        </button>
+        <div class="flex flex-col border-l-2 border-white/50 pl-4">
+          <div class="flex items-center mb-1">
+            <span class="text-white">⭐️⭐️⭐️⭐️⭐️</span>
+          </div>
+          <span class="text-sm">100+ Positive Client Reviews</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="py-12 px-6 md:px-28">
+    <div class=" flex flex-col md:flex-row items-center justify-between gap-10">
+      <!-- Left Content -->
+      <div class="max-w-xl">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4">
+          Products That Uplift. Solutions That Protect. Impact That Scales.
+        </h2>
+        <p class="text-gray-500 text-lg md:text-xl">
+          From Clean Energy To Healthcare, We Scale What The Future Demands.
+        </p>
+      </div>
+
+      <!-- Right Content -->
+      <div class="flex flex-col items-center">
+        <img src="./public/bg-images/ppp-img.png" alt="Hands holding plant"
+          class="rounded-2xl w-full max-w-md object-cover">
+        <div class="flex space-x-6 mt-4 text-green-900 font-semibold text-lg md:text-xl playfair">
+          <span>PEOPLE.</span>
+          <span>PLANET.</span>
+          <span>PROFIT.</span>
+        </div>
+      </div>
+    </div>
+    <div class="py-12 px-6 md:px-16 bg-white">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-left">
+        <!-- Stat 1 -->
+        <div class="border-t-2 border-gray-200 pt-3 md:pt-6">
+          <h3 class="text-4xl md:text-5xl font-semibold">15+</h3>
+          <p class="text-gray-600 mt-2">Years experience</p>
+        </div>
+        <!-- Stat 2 -->
+        <div class="border-t-2 border-gray-200 pt-3 md:pt-6">
+          <h3 class="text-4xl md:text-5xl font-semibold">200+</h3>
+          <p class="text-gray-600 mt-2">Athletes coached</p>
+        </div>
+        <!-- Stat 3 -->
+        <div class="border-t-2 border-gray-200 pt-3 md:pt-6">
+          <h3 class="text-4xl md:text-5xl font-semibold">500+</h3>
+          <p class="text-gray-600 mt-2">Race strategies</p>
+        </div>
+        <!-- Stat 4 -->
+        <div class="border-t-2 border-gray-200 pt-3 md:pt-6">
+          <h3 class="text-4xl md:text-5xl font-semibold">10,000+</h3>
+          <p class="text-gray-600 mt-2">Training hours</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 px-6 md:px-16 w-full ">
+
+    <div class="w-full cards relative min-h-screen ">
+      <p class="text-[#767676] font-bold text-4xl text-center py-8 sticky top-0 playfair">From Idea to ₹7,000 Cr+ Vision
+      </p>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-7xl mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/1.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Launched eBikeGo Rentals</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2019</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Launched India’s first eco-friendly two-wheeler rentals.</li>
+            <li>Reduced urban pollution and commuting costs.</li>
+            <li>1x Per 2 Weeks Training Plan Update</li>
+            <li>Built a green mobility network in key cities.</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/2.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2"> Entered EV & Green Mobility</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2020</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Expanded into EV manufacturing</li>
+            <li>Built EV charging networks</li>
+            <li>Established clean transport leadership</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/3.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Scaled Manufacturing & Tech</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2021</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Expanded manufacturing capacity</li>
+            <li>Boosted tech capabilities</li>
+            <li>Strengthened sustainable production</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/4.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Secured Global Brand Deals</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2022</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Strategic alliances with top global brands</li>
+            <li>Entered new global markets</li>
+            <li>Strengthened brand reputation</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/5.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Retail Partnerships with Acer & WHILL</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2023</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Partnered with Acer for smart scooters</li>
+            <li>Launched WHILL for accessible mobility</li>
+            <li>Expanded mobility product range</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/6.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Secured Global Brand Deals</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2024</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Grew domestic and international dealerships</li>
+            <li>Enhanced investor/customer-facing retail spaces</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/7.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Aiming for 100+ Retail Stores</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2025</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Nationwide store expansion</li>
+            <li>Introduced franchises & investor centers</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/6.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Focus on R&D, Sustainability & Smart Tech</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2026</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Deepened R&D investments</li>
+            <li>Strengthened sustainability innovation</li>
+            <li>Enhanced smart tech offerings</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card bg-white rounded-3xl shadow-xl overflow-hidden max-w-[1200px] mx-auto mb-8 flex flex-col md:flex-row px-7 py-8">
+        <div class="md:w-1/2">
+          <img src="./public/vision/3.png" alt="Plan Image" class="w-full h-full object-cover rounded-3xl">
+        </div>
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <p class="text-gray-500 font-semibold mb-2">Eco Leadership & Community Impact</p>
+          <h3 class="text-3xl font-bold text-green-800 mb-6">2027</h3>
+          <ul class="space-y-4 text-gray-500 mb-8 text-xl">
+            <li>Global environmental leadership</li>
+            <li>Socially impactful community programs</li>
+            <li>Partnerships for sustainable growth</li>
+          </ul>
+          <a href="#"
+            class="w-fit inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#F2F2F2] text-black rounded-full text-sm font-medium hover:bg-gray-100 transition group ">
+            Know More
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="h-[200px]"></div>
+  </section>
+
+  <!-- Hero Section -->
+  <section class="relative mt-96 bg-cover bg-center text-center text-white h-[250px]"
+    style="background-image: url('./public/bg-images/green-leaf.jpg');">
+    <div class="absolute inset-0 bg-black/50 bg-opacity-50"></div>
+    <div
+      class=" md:max-w-4xl mx-auto md:px-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:w-9/12">
+      <h1 class="text-3xl md:text-5xl font-bold mb-4 playfair">GREEN IS THE NEW GOLD</h1>
+      <p class="text-lg md:text-xl">From The Climate Crisis To Capital Inflow — Sustainability Is The New Frontier. The
+        Trillion-Dollar Transformation Begins Now.</p>
+    </div>
+  </section>
+
+  <!-- Info Cards -->
+  <section class="py-16 px-6 max-w-6xl mx-auto ">
+    <!-- Card 1 -->
+    <div class="flex flex-col-reverse md:flex-row gap-8 mb-8">
+      <div class="bg-white rounded-2xl shadow-md p-8 w-full md:w-1/2 flex flex-col justify-center">
+        <h3 class="text-xl md:text-4xl font-semibold mb-4 playfair">CO₂ Emission Breakdown</h3>
+        <p class="text-gray-600 md:text-xl">
+          Gain clarity on the key sources of global carbon emissions. This chart highlights the major sectors driving
+          climate impact — from energy production and transportation to agriculture and industry — helping investors see
+          where change is most needed.
+        </p>
+      </div>
+      <img src="./public/bg-images/foge-forest.png" alt="Forest"
+        class="rounded-2xl object-cover  w-full md:w-1/2 h-full">
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white rounded-2xl shadow-md p-8 flex flex-col gap-8 md:flex-row justify-between items-center">
+      <div class="w-full md:w-1/2">
+        <h3 class="text-xl md:text-4xl font-semibold mb-4 playfair">Global Sustainability Market Growth</h3>
+        <p class="text-gray-600 md:text-xl">
+          The sustainability sector is booming. From $25B in 2024 to a projected $105B by 2030, this chart showcases the
+          accelerating global shift toward green innovation, clean tech, and eco-conscious investment opportunities.
+        </p>
+      </div>
+      <img src="./public/bg-images/graph.png" alt="Market Growth Chart"
+        class="rounded-2xl object-cover w-full md:w-1/2 h-full">
+    </div>
+  </section>
+
+  <section class="bg-[#F9F9F9]" >
+    <!-- <div class="absolute inset-0 bg-black/50 bg-opacity-50"></div> -->
+    <div class="py-20 px-6 max-w-7xl mx-auto ">
+      <!-- Section Title -->
+      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-12 playfair">
+        HOW WE MAKE MONEY. AND HOW YOU CAN TOO.
+      </h2>
+
+      <!-- Top Cards -->
+      <div class="grid md:grid-cols-3 gap-8 mb-28">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl shadow-md p-6 relative group">
+          <div
+            class="absolute top-6 left-6 bg-white shadow-xl/30 rounded-full font-semibold text-sm flex justify-center items-center w-12 h-12">
+            <span>20%</span>
+          </div>
+          <div class="mt-16 pt-2.5">
+            <div class="w-full h-1 rounded-full bg-[#EDEDED] my-8">
+              <div class="progress-bar w-1/3 h-full rounded-full group-hover:bg-[#005326]"></div>
+            </div>
+            <h3 class="uppercase font-bold mb-2 playfair">Partnership</h3>
+            <p class="text-gray-600 mb-6">Driving core revenue</p>
+            <button
+              class="hover-button w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center text-green-700 group-hover:bg-black group-hover:text-white">
+              <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.755906 11.147L12.022 2.21983M12.022 2.21983L4.22638 1.06105M12.022 2.21983L11.3681 10.074"
+                  class="hover-svg group-hover:stroke-white" stroke="#005326" stroke-width="1.43743"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl shadow-md p-6 relative group">
+          <div
+            class="absolute top-6 left-6 bg-white shadow-xl/30 rounded-full font-semibold text-sm flex justify-center items-center w-12 h-12">
+            <span>20%</span>
+          </div>
+          <div class="mt-16 pt-2.5">
+            <div class="w-full h-1 rounded-full bg-[#EDEDED] my-8">
+              <div class="progress-bar w-1/3 h-full rounded-full group-hover:bg-[#005326]"></div>
+            </div>
+            <h3 class="uppercase font-bold mb-2 playfair">Services</h3>
+            <p class="text-gray-600 mb-6">Technology and support offerings</p>
+            <button
+              class="hover-button w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center text-green-700 group-hover:bg-black group-hover:text-white">
+              <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.755906 11.147L12.022 2.21983M12.022 2.21983L4.22638 1.06105M12.022 2.21983L11.3681 10.074"
+                  class="hover-svg group-hover:stroke-white" stroke="#005326" stroke-width="1.43743"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl shadow-md p-6 relative group">
+          <div
+            class="absolute top-6 left-6 bg-white shadow-xl/30 rounded-full font-semibold text-sm flex justify-center items-center w-12 h-12">
+            <span>20%</span>
+          </div>
+          <div class="mt-16 pt-2.5">
+            <div class="w-full h-1 rounded-full bg-[#EDEDED] my-8">
+              <div class="progress-bar w-1/3 h-full rounded-full group-hover:bg-[#005326]"></div>
+            </div>
+            <h3 class="uppercase font-bold mb-2 playfair">Products</h3>
+            <p class="text-gray-600 mb-6"> Hardware & mobility solutions</p>
+            <button
+              class="hover-button w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center text-green-700 group-hover:bg-black group-hover:text-white">
+              <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.755906 11.147L12.022 2.21983M12.022 2.21983L4.22638 1.06105M12.022 2.21983L11.3681 10.074"
+                  class="hover-svg group-hover:stroke-white" stroke="#005326" stroke-width="1.43743"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Cards -->
+      <div class="flex flex-col md:flex-row justify-center items-center gap-5">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl md:rounded-none md:rounded-l-xl shadow-md p-8 text-center h-fit">
+          <h3 class="uppercase font-bold mb-2 playfair">Exit Strategy</h3>
+          <p class="text-xl font-semibold mb-4">2X or 30% Discount</p>
+          <p class="text-gray-600 mb-6">Flexible options, multiple return mechanisms</p>
+          <a href="#"
+            class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#E9E9E9] text-black rounded-full text-base font-medium hover:bg-gray-100 transition group ">
+            Invest now
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-10 w-10 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl shadow-md p-8 py-16 text-center">
+          <h3 class="uppercase font-bold md:font-semibold md:text-4xl mb-2 playfair">Annual Returns</h3>
+          <p class="text-xl font-semibold mb-4">15–18%</p>
+          <p class="text-gray-600 mb-6">Projected yearly growth rate with consistent performance tracking</p>
+          <a href="#"
+            class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#E9E9E9] text-black rounded-full text-base font-medium hover:bg-gray-100 transition group ">
+            Invest now
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-10 w-10 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl md:rounded-none md:rounded-r-xl shadow-md p-8 text-center h-fit">
+          <h3 class="uppercase font-bold mb-2 playfair">Minimum Investment</h3>
+          <p class="text-xl font-semibold mb-4">₹25L</p>
+          <p class="text-gray-600 mb-6">Premium tier entry with investor perks</p>
+          <a href="#"
+            class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-[#E9E9E9] text-black rounded-full text-base font-medium hover:bg-gray-100 transition group ">
+            Invest now
+            <span
+              class="bg-black text-white rounded-full ml-2 p-0.5 h-10 w-10 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-black pb-20 px-6 relative">
+    <div class=" w-full max-h-screen  main-news">
+      <p class="text-center uppercase text-white font-semibold text-4xl py-20 playfair">Media-Recognized.
+        Partner-Backed.</p>
+
+      <div class="flex justify-between px-28">
+        <div class="overflow-y-hidden h-[70vh] flex flex-col gap-18 scroll-news"
+          style="-ms-overflow-style: none; scrollbar-width: none; :-webkit-scrollbar { display: none;}">
+
+          <div class=" text-white p-6 rounded-lg">
+            <h3 class="text-4xl font-semibold mb-4">
+              RISE IN EV RENTAL OF <br> 2-WHEELERS IN INDIA
+            </h3>
+            <p class="text-lg font-semibold mb-2">
+              SATURDAY &nbsp; DECEMBER 14 &nbsp; 2024
+            </p>
+            <p class="text-sm text-gray-300 mb-6">
+              Built by experts. Driven by a bold vision for a sustainable future.
+            </p>
+            <a href="#"
+              class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition group ">
+              Invest now
+              <span
+                class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+                <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
+          <div class=" text-white p-6 rounded-lg">
+            <h3 class="text-4xl font-semibold mb-4">
+              RISE IN EV RENTAL OF <br> 2-WHEELERS IN INDIA
+            </h3>
+            <p class="text-lg font-semibold mb-2">
+              SATURDAY &nbsp; DECEMBER 14 &nbsp; 2024
+            </p>
+            <p class="text-sm text-gray-300 mb-6">
+              Built by experts. Driven by a bold vision for a sustainable future.
+            </p>
+            <a href="#"
+              class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition group ">
+              Invest now
+              <span
+                class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+                <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
+          <div class=" text-white p-6 rounded-lg">
+            <h3 class="text-4xl font-semibold mb-4">
+              RISE IN EV RENTAL OF <br> 2-WHEELERS IN INDIA
+            </h3>
+            <p class="text-lg font-semibold mb-2">
+              SATURDAY &nbsp; DECEMBER 14 &nbsp; 2024
+            </p>
+            <p class="text-sm text-gray-300 mb-6">
+              Built by experts. Driven by a bold vision for a sustainable future.
+            </p>
+            <a href="#"
+              class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition group ">
+              Invest now
+              <span
+                class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+                <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
+          <div class=" text-white p-6 rounded-lg">
+            <h3 class="text-4xl font-semibold mb-4">
+              RISE IN EV RENTAL OF <br> 2-WHEELERS IN INDIA
+            </h3>
+            <p class="text-lg font-semibold mb-2">
+              SATURDAY &nbsp; DECEMBER 14 &nbsp; 2024
+            </p>
+            <p class="text-sm text-gray-300 mb-6">
+              Built by experts. Driven by a bold vision for a sustainable future.
+            </p>
+            <a href="#"
+              class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition group ">
+              Invest now
+              <span
+                class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+                <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+
+          <div class=" text-white p-6 rounded-lg">
+            <h3 class="text-4xl font-semibold mb-4">
+              RISE IN EV RENTAL OF <br> 2-WHEELERS IN INDIA
+            </h3>
+            <p class="text-lg font-semibold mb-2">
+              SATURDAY &nbsp; DECEMBER 14 &nbsp; 2024
+            </p>
+            <p class="text-sm text-gray-300 mb-6">
+              Built by experts. Driven by a bold vision for a sustainable future.
+            </p>
+            <a href="#"
+              class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition group ">
+              Invest now
+              <span
+                class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+                <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <div class="img-container ">
+          <img src="./public/news/1.png" alt="" class="news-img rounded-xl h-[520px] w-[483px] ">
+          <!-- <img src="./public/test-money/1.jpg" alt="" class="news-img hidden rounded-xl h-[520px] w-[483px] ">
+          <img src="./public/test-money/2.jpg" alt="" class="news-img hidden rounded-xl h-[520px] w-[483px] ">
+          <img src="./public/test-money/3.jpg" alt="" class="news-img hidden rounded-xl h-[520px] w-[483px] "> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="h-screen "></div> -->
+  </section>
+
+  <section class="py-20 px-2.5 md:px-6 max-w-5xl mx-auto text-center">
+    <!-- Main Heading -->
+    <h2 class="text-2xl md:text-3xl font-semibold mb-12 playfair">
+      LED BY BUILDERS. BACKED BY VISION.
+    </h2>
+
+    <!-- Team Images -->
+    <div class="max-w-2xl flex flex-col md:flex-row justify-between mb-12 mx-auto ">
+      <!-- CEO Card -->
+      <div class="relative">
+        <img src="./public/owners/irfan.png" alt="CEO" class="rounded-2xl w-96 md:w-80 h-full object-cover mx-auto">
+        <span class="absolute top-4 right-4 bg-white text-xs font-semibold px-3 py-1 rounded-full shadow">CEO</span>
+        <div class="absolute bottom-0 left-0 right-0 bg-white/60 p-2">
+          <p class="uppercase text-lg font-semibold text-left ">Dr. Irfan Khan</p>
+          <p class="text-sm text-[#171717] text-left ">visionary Founder & CEO</p>
+        </div>
+      </div>
+      <!-- COO Card -->
+      <div class="relative">
+        <img src="./public/owners/hari.jpg" alt="COO" class="rounded-2xl w-96 md:w-80 mx-auto">
+        <span class="absolute top-4 right-4 bg-white text-xs font-semibold px-3 py-1 rounded-full shadow">COO</span>
+        <div class="absolute bottom-0 left-0 right-0 bg-white/60 p-2">
+          <p class="uppercase text-lg font-semibold text-left ">Hari Kiran</p>
+          <p class="text-sm text-[#171717] text-left ">co-founder & Coo</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vision Text -->
+    <div class="text-center md:text-left max-w-2xl mx-auto">
+      <h3 class="text-lg md:text-2xl font-semibold mb-4 playfair">VISION</h3>
+      <p class="text-gray-600 leading-relaxed">
+        EBG Group was founded to tackle real-world challenges with practical, innovative solutions.
+        From modest beginnings, we’ve grown into a global force — driving progress across high-impact industries.
+        Rooted in resilience and guided by excellence, we remain committed to improving lives.
+        As we scale new heights, our story is one of innovation, collaboration, and a steadfast vision for a brighter,
+        sustainable future.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+    <!-- Heading -->
+    <h2 class="text-2xl md:text-3xl font-semibold mb-8 playfair">WHY BACK EBG NOW?</h2>
+
+    <!-- Stars -->
+    <div class="flex justify-center mb-8">
+      <!-- You can use inline SVG or emoji for stars -->
+      <span class="text-yellow-400 text-2xl">⭐️⭐️⭐️⭐️⭐️</span>
+    </div>
+
+    <!-- Quote -->
+    <blockquote id="testContent" class="text-gray-600 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto mb-6  transition-all duration-500 ease-in-out opacity-100">
+      "EBG's portfolio approach and proven track record of 18% returns make them a standout in the market. Their scale
+      advantage is undeniable."
+    </blockquote>
+
+    <!-- Name & role -->
+    <p id="testName" class="font-semibold uppercase text-gray-700">Ramdev, Yoga Instructor</p>
+
+    <!-- Avatars row -->
+    <div class="flex justify-center gap-4 mt-10">
+      <img id="use1" src="./public/test-money/1.jpg" alt="User 1"
+        class="tst-user w-14 h-14 rounded-full object-cover cursor-pointer transition duration-300 ease-in-out hover:scale-110 ">
+      <img id="use2" src="./public/test-money/2.jpg" alt="User 2"
+        class="tst-user w-14 h-14 rounded-full object-cover cursor-pointer transition duration-300 ease-in-out hover:scale-110 ">
+      <img id="use3" src="./public/test-money/3.jpg" alt="User 3"
+        class="tst-user w-14 h-14 rounded-full object-cover cursor-pointer transition duration-300 ease-in-out hover:scale-110 ">
+      <img id="use4" src="./public/test-money/4.jpg" alt="User 4"
+        class="tst-user w-14 h-14 rounded-full object-cover cursor-pointer transition duration-300 ease-in-out hover:scale-110 ">
+    </div>
+  </section>
+
+  <section class="relative h-[504px] bg-cover bg-center flex items-center justify-center text-center"
+    style="background-image: url('./public/bg-images/ready-invest.png');">
+    <!-- Overlay (optional for better contrast) -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-3xl px-6">
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 playfair">READY TO INVEST</h1>
+      <p class="text-lg md:text-xl text-white mb-8">
+        I’ll Help You Reach New Heights And Stay Ahead Of The Competition.
+      </p>
+      <a href="#"
+        class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition">
+        Invest now
+        <span class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center ">
+          <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+              stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="bg-black text-white px-6 py-12">
+    <div class="mx-auto max-w-7xl ">
+      <!-- Top Grid -->
+      <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-12 mb-28 ">
+        <!-- Left: Logo + Social -->
+        <div>
+          <!-- <h2 class="text-5xl font-extrabold text-gray-300 mb-6">EBG</h2> -->
+          <img src="./public/logo/whiteLogo.png" alt="EBG Logo" class=" w-32 mx-auto md:mx-0 h-14 mb-6">
+          <div class="flex gap-6 text-2xl">
+            <a href="#" aria-label="Instagram" class="hover:text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-instagram-icon lucide-instagram">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="hover:text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-facebook-icon lucide-facebook">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-linkedin-icon lucide-linkedin">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube" class="hover:text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-youtube-icon lucide-youtube">
+                <path
+                  d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                <path d="m10 15 5-3-5-3z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: CTA -->
+        <div class="text-center md:text-right">
+          <h3 class="text-2xl md:text-3xl font-extrabold mb-6 playfair">JOIN VISIONARY LEADERS. <br>INVEST IN A PROVEN
+            MODEL.
+          </h3>
+          <p class="uppercase text-sm md:text-base mb-8 text-gray-300">Take the next step towards exceptional returns
+            with EBG's <br>proven investment framework.</p>
+          <a href="#"
+            class="inline-flex items-center gap-2 px-1 py-1 pl-6 bg-white text-black rounded-full text-lg font-medium hover:bg-gray-100 transition">
+            Invest now
+            <span class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center ">
+              <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                  stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="border-t border-gray-100 my-6">
+
+      <!-- Bottom -->
+      <p class="text-center text-gray-300">&copy; 2024, EBG Group All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

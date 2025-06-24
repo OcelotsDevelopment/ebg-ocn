@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Avenir Next LT Pro;
+    src: url("../public/font/AvenirLTProBook.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Avenir Next LT Pro;
+    font-weight: bold;
+    src: url("../public/font/AvenirLTProRoman.otf") format("opentype");
+}
+
+body {
+    font-family: 'Avenir Next LT Pro', serif;
+}
+
+.playfair {
+    font-family: 'Playfair Display Variable', serif;
+}
+
+/* .avenirnext {
+    font-family: 'Avenir Next LT Pro', serif;
+} */
+
+.progress-bar {
+    transition: background-color 0.3s ease;
+}
+.hover-button {
+    transition: all 0.3s ease;
+}
+.hover-svg {
+    transition: stroke 0.3s ease;
+}
+
