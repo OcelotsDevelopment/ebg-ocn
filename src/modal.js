@@ -41,22 +41,29 @@ const modal = /*html*/ `
         <form action="#" method="POST" class="space-y-4">
           <div>
             <input type="text" name="name" placeholder="Name" required
-              class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+              class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300">
           </div>
           <div>
             <input type="email" name="email" placeholder="Email" required
-              class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+              class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300">
           </div>
           <div>
             <input type="tel" name="phone" placeholder="Phone No" required
-              class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+              class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300">
           </div>
           <div class="text-center">
-            <button type="submit"
-              class="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 text-white font-semibold text-lg rounded-full hover:bg-gray-700 transition">
-              Submit Now
-              <span class="bg-black text-white rounded-full p-1">➜</span>
-            </button>
+          <button
+          class="bap inline-flex justify-between cursor-pointer items-center gap-2 px-1 py-1 pl-6 bg-gray-200 w-full text-black rounded-full text-lg font-medium hover:bg-gray-100 transition group ">
+          Start Investing Now
+          <span
+            class="bg-black text-white rounded-full ml-2 p-0.5 h-12 w-12 flex justify-center items-center transition duration-300 ease-in-out group-hover:scale-118 group-hover:rotate-[41deg]">
+            <svg width="14" height="14" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.982315 9.36657L10.1707 1.78645M10.1707 1.78645L9.56758 8.07463M10.1707 1.78645L3.88249 1.18336"
+                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+        </button>
           </div>
         </form>
       </div>
